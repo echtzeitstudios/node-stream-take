@@ -1,0 +1,30 @@
+{
+  "name": "stream-take",
+  "description": "A transform that takes the first n bytes of a stream.",
+  "keywords": [
+    "stream",
+    "transform",
+    "util",
+    "utility"
+  ],
+  "version": "0.0.1",
+  "author": "Maximilian Haupt <mhaupt@echtzeitstudios.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echtzeitstudios/node-stream-take.git"
+  },
+  "bugs": {
+    "url": "https://github.com/echtzeitstudios/node-stream-take/issues"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 4"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
+}
